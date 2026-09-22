@@ -1,0 +1,23 @@
+.mark {
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  padding-bottom: 0.2em;
+}
+
+.mark.tight {
+  padding-bottom: 0.18em;
+}
+
+.underline {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: clamp(7px, 1.5vw, 11px);
+  overflow: visible;
+}
+
+.underline.newsletter {
+  height: clamp(6px, 1.4vw, 9px);
+}

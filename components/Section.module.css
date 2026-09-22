@@ -1,0 +1,11 @@
+.paddingDefault {
+  padding: clamp(72px, 13vw, 132px) 0;
+}
+
+.paddingHero {
+  padding: clamp(44px, 10vw, 88px) 0 clamp(56px, 12vw, 104px);
+}
+
+.paddingClosing {
+  padding: clamp(76px, 14vw, 140px) 0;
+}
