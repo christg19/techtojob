@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "title": "TechToJob — Comunidad de desarrolladores y empresas tech en español",
+    "description": "El Discord en español para devs y empresas tech: publicas lo que haces, te leen en tu canal y te escriben cuando hace falta alguien como tú. Para juniors y para quien prefiere ver trabajar a alguien antes de contratarlo."
+  },
+  "brand": {
+    "logoAlt": "TechToJob"
+  },
+  "nav": {
+    "cta": "Entrar al Discord"
+  },
+  "hero": {
+    "eyebrow": "Comunidad de desarrolladores y empresas tech en español",
+    "titleA": "Aquí no mandas el CV.",
+    "titleB": "Aquí te ven",
+    "lead": "TechToJob es un Discord: publicas lo que construyes, tu canal te lee, y cuando haga falta alguien como tú, ya saben quién eres — sin esperar a que exista la vacante. Si eres junior, entras igual: nadie te pide años que aún no tienes.",
+    "cta": "Entrar al Discord",
+    "ctaNote": "Es un Discord. Entras, te presentas y eliges tus canales.",
+    "devsLabel": "Si eres dev",
+    "devs": "Estás cansado de aplicar y que nadie responda.",
+    "devsLink": "Ver cómo funciona para ti →",
+    "companiesLabel": "Si eres empresa",
+    "companies": "Estás cansado de decidir con un PDF delante.",
+    "companiesLink": "Ver cómo funciona para ti →",
+    "titleBMark": "trabajar.",
+    "loop": {
+      "label": "Cómo pasa",
+      "beats": [
+        "Publicas lo que haces.",
+        "La gente de tu canal se entera de lo que sacas adelante.",
+        "Cuando buscan a alguien, ya saben"
+      ],
+      "beatsMark": "quién eres.",
+      "note": "Sin formulario, y sin que tu perfil se quede esperando detrás de un bot que decide si mereces respuesta."
+    }
+  },
+  "tournament": {
+    "stripLead": "Torneo #2 — entregas abiertas hasta el",
+    "stripCta": "Entrar al Discord"
+  },
+  "how": {
+    "eyebrow": "Cómo funciona",
+    "title": "Del primer clic a que alguien te escriba",
+    "lead": "Cuatro pasos. Ninguno te pide años de experiencia.",
+    "steps": [
+      {
+        "title": "Entras",
+        "text": "Te presentas en #presentaciones y eliges tus canales por área. Cinco minutos."
+      },
+      {
+        "title": "Publicas lo que haces",
+        "text": "Tu perfil, tus proyectos, tus dudas. No rellenas un formulario: escribes en un canal, y nadie revisa antes si eres lo bastante senior."
+      },
+      {
+        "title": "Te conocen trabajando",
+        "text": "Comentas, ayudas y recibes crítica. Con el tiempo la gente de tu canal sabe cómo trabajas. Si quieres acelerarlo, entregas en un torneo."
+      },
+      {
+        "title": "Te escriben",
+        "text": "Las empresas están en los mismos canales, leyendo lo mismo que tú. No hacen una búsqueda: ya te han leído.",
+        "link": "Ver a quién ya le ha pasado"
+      }
+    ]
+  },
+  "talent": {
+    "eyebrow": "Ofrécete como talento",
+    "title": "Tu nivel no decide lo que puedes aportar.",
+    "lead": "Cuentas qué sabes hacer, en qué punto estás y cuándo puedes empezar. Nada de que un filtro automático te descarte por los años que pone tu currículum — aquí el primero en leerte es una persona.",
+    "cards": [
+      {
+        "title": "Sin mínimo de experiencia",
+        "text": "Lo que cuenta es lo que enseñas, no cuántos años llevas. Y para enseñar algo no hace falta que sea grande."
+      },
+      {
+        "title": "Tú escribes tu perfil",
+        "text": "No hay campos obligatorios ni plantilla. Lo que enseñas es lo que decides enseñar."
+      },
+      {
+        "title": "Las empresas lo leen",
+        "text": "Están en los mismos canales y consultan los perfiles cuando buscan a alguien. Terminas algo, lo cuentas, y tu perfil no se queda viejo en un cajón."
+      },
+      {
+        "title": "Feedback antes que rechazo",
+        "text": "Preguntas en abierto y alguien con más camino te contesta."
+      }
+    ],
+    "cta": "Presentarme en el Discord",
+    "ctaNote": "Te presentas en #presentaciones y eliges tus canales. Entrar y publicar tu perfil no cuesta nada.",
+    "projects": {
+      "title": "Lo que ya se publica",
+      "lead": "Proyectos que la gente ha contado en su canal, con su repo y la crítica que recibieron.",
+      "stackLabel": "#stack",
+      "items": [
+        {
+          "title": "Buscador de pisos con filtros compartibles",
+          "built": "Los filtros viven en la URL, así que una búsqueda se manda por mensaje y llega igual.",
+          "stack": "React · TanStack Query",
+          "handle": "marta.dev",
+          "channel": "#frontend"
+        },
+        {
+          "title": "Repaso semanal automático",
+          "built": "Ordena mis apuntes por tema y me dice qué toca repasar el domingo.",
+          "stack": "Python · Embeddings",
+          "handle": "kevinq",
+          "channel": "#data-ia"
+        },
+        {
+          "title": "Portfolio rehecho desde cero",
+          "built": "Dejé de esconder que soy junior y empecé a contar qué aprendí en cada proyecto.",
+          "stack": "Astro · Tailwind",
+          "handle": "sofi.builds",
+          "channel": "#primer-empleo"
+        }
+      ]
+    },
+    "answers": {
+      "title": "Sin letra pequeña",
+      "items": [
+        {
+          "q": "¿Cuesta algo?",
+          "a": "No. Ni para entrar, ni para publicar tu perfil, ni para que una empresa cuente lo que busca."
+        },
+        {
+          "q": "Ya soy senior, ¿esto es para juniors?",
+          "a": "Los canales están por área, no por seniority. Si llevas años, aquí es donde te encuentra quien monta equipo, y donde tu nombre circula sin pasar por un reclutador."
+        }
+      ]
+    }
+  },
+  "companies": {
+    "eyebrow": "Publica como empresa",
+    "title": "Conoce a la persona antes de reducirla a un CV.",
+    "lead": "Cuentas lo que buscas en los canales donde ya está la gente. Y ves proyectos reales, publicados por quien los hizo, antes de hablar con nadie.",
+    "cards": [
+      {
+        "title": "Ves el trabajo, no el formato",
+        "text": "Repos, deploys y decisiones explicadas por quien las tomó. No una plantilla bien maquetada."
+      },
+      {
+        "title": "Hablas antes de abrir proceso",
+        "text": "Un mensaje en un canal llega más lejos que una oferta publicada."
+      },
+      {
+        "title": "Contexto antes de la criba",
+        "text": "Lees cómo alguien discute una decisión técnica. Eso no cabe en un PDF de dos páginas."
+      }
+    ],
+    "cta": "Contar lo que busco en el Discord",
+    "ctaNote": "Lo cuentas en #empresas, delante de la gente del área. Publicarlo no cuesta nada.",
+    "contact": {
+      "postedLabel": "Publicó",
+      "title": "Buscador de pisos con filtros compartibles",
+      "handle": "marta.dev",
+      "channel": "#frontend",
+      "repliedLabel": "Le escribieron",
+      "replied": "«Vimos tu buscador de pisos. Preferimos ver cómo trabaja alguien antes de abrir un proceso. ¿Hablamos?»",
+      "company": "Una empresa del canal #empresas",
+      "delay": "Seis días después de publicarlo"
+    }
+  },
+  "tournaments": {
+    "eyebrow": "Torneos",
+    "title": "Construyes algo de verdad. Y te lo critican delante de todos.",
+    "lead": "Un reto con fecha, entregas en abierto y un jurado que publica sus criterios antes de empezar.",
+    "cards": [
+      {
+        "title": "El reto",
+        "text": "Un enunciado y una fecha de cierre. El mismo para todos."
+      },
+      {
+        "title": "Las entregas",
+        "text": "Se publican, no se esconden. Repo, deploy y las decisiones que tomaste, a la vista de cualquiera."
+      },
+      {
+        "title": "El jurado",
+        "text": "Gente del sector. Los criterios se publican antes de que abran las entregas, así sabes cómo te van a mirar."
+      },
+      {
+        "title": "Lo que se gana",
+        "text": "El trabajo ganador se usa de verdad. Esta página es una entrega del Torneo #2."
+      }
+    ],
+    "payoff": {
+      "title": "¿Y si no ganas?",
+      "text": "Sales con un proyecto terminado, con crítica de gente que sabe y con tu nombre en la cabeza de quien lo leyó. Eso lo puedes enseñar en una entrevista. Un certificado, no."
+    },
+    "cta": "Ver el torneo abierto",
+    "ctaNote": "Se anuncian en el servidor antes de abrir entregas. Entrar no te obliga a entregar.",
+    "answers": [
+      {
+        "q": "¿Es obligatorio entregar?",
+        "a": "No. Es la vía más rápida para que te vean, pero puedes estar solo en los canales de tu área."
+      },
+      {
+        "q": "¿Y si entrego algo malo?",
+        "a": "Recibes crítica en abierto, que es justo lo que no te da un portal. Nadie descalifica a nadie por el nivel."
+      }
+    ]
+  },
+  "networking": {
+    "eyebrow": "Networking",
+    "title": "Las ofertas llegan por contacto, no por buscar",
+    "lead": "Los trabajos buenos no se buscan, te enteras de ellos. Aquí no hay buscador: hay canales por área y gente hablando dentro. Cuando alguien necesita a alguien, lo pregunta donde tú ya estás.",
+    "channelsLabel": "Canales por área",
+    "channels": [
+      "#frontend",
+      "#backend",
+      "#mobile",
+      "#data-ia",
+      "#devops-cloud",
+      "#qa-testing",
+      "#diseno-ux",
+      "#producto",
+      "#ciberseguridad",
+      "#primer-empleo",
+      "#empresas"
+    ],
+    "points": [
+      {
+        "title": "Por área, no por seniority",
+        "text": "Preguntas en el canal de tu área y en minutos responde quien ya pasó por ahí."
+      },
+      {
+        "title": "Las ofertas llegan por cadena",
+        "text": "Alguien conoce a quien contrata y lo comparte en el canal. Empieza en público y sigue por privado cuando hay algo concreto."
+      }
+    ],
+    "cta": "Entrar y elegir mis canales",
+    "ctaNote": "Eliges por área al entrar. Puedes cambiarlos cuando quieras."
+  },
+  "news": {
+    "eyebrow": "Noticias",
+    "title": "Lo que pasa en la comunidad",
+    "lead": "Torneos que abren, canales que se mueven y lo que va saliendo del servidor.",
+    "items": [
+      {
+        "category": "Torneos",
+        "date": "10 sep 2026",
+        "title": "Abiertas las entregas del Torneo #2",
+        "summary": "El reto es la web de la comunidad. Las entregas se publican en abierto y el jurado explica sus criterios antes de puntuar."
+      },
+      {
+        "category": "Comunidad",
+        "date": "02 sep 2026",
+        "title": "Canal nuevo para quien empieza",
+        "summary": "Separamos #primer-empleo del resto. Las dudas de entrada se perdían entre hilos de gente con años encima."
+      },
+      {
+        "category": "Empresas",
+        "date": "26 ago 2026",
+        "title": "Cómo contar lo que buscas sin escribir una oferta",
+        "summary": "Qué construye el equipo, qué problema hay encima de la mesa y con qué stack. Tres líneas y ya."
+      }
+    ],
+    "all": "Ver todas las entradas"
+  },
+  "newsletter": {
+    "eyebrow": "Newsletter",
+    "titleA": "Un correo cada quince días.",
+    "titleMark": "Y ya.",
+    "lead": "Si no te apetece entrar a diario, esto es lo mínimo para no perderte nada.",
+    "items": [
+      "El torneo abierto y cómo entrar.",
+      "Dos o tres proyectos que merecen que los mires.",
+      "Lo que buscan las empresas que están dentro."
+    ],
+    "label": "Tu correo",
+    "placeholder": "tu@correo.com",
+    "cta": "Quiero recibirlo",
+    "note": "Te das de baja en un clic. No compartimos tu correo con nadie.",
+    "successTitle": "Apuntado.",
+    "successNote": "Te llega en el próximo envío. Te das de baja desde cualquier correo.",
+    "reset": "Reiniciar"
+  },
+  "closing": {
+    "eyebrow": "Último aviso",
+    "title": "La próxima vacante, que te la cuenten dentro.",
+    "lead": "Aquí se te ve porque participas. Entra, preséntate, cuenta lo que construyes y échale un ojo a lo que publican los demás.",
+    "cta": "Entrar al Discord",
+    "notFor": "No es para quien quiera mandar el CV y esperar: si no vas a publicar nada, no te va a servir."
+  },
+  "footer": {
+    "navLabel": "Enlaces del sitio",
+    "tagline": "Comunidad de desarrolladores y empresas tech en español.",
+    "groups": [
+      {
+        "title": "Talento",
+        "links": [
+          "Presentarme en el Discord",
+          "Cómo funciona",
+          "Canales por área"
+        ]
+      },
+      {
+        "title": "Empresas",
+        "links": [
+          "Contar lo que busco",
+          "Ver proyectos",
+          "Noticias para empresas"
+        ]
+      },
+      {
+        "title": "Comunidad",
+        "links": [
+          "Entrar al Discord",
+          "Torneos",
+          "Noticias",
+          "Newsletter"
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          "Aviso legal",
+          "Privacidad",
+          "Cookies"
+        ]
+      }
+    ],
+    "socials": [
+      "Discord",
+      "X",
+      "LinkedIn",
+      "Instagram"
+    ],
+    "legalNotice": "TechToJob no es un portal de empleo ni una agencia de colocación. No intermediamos en contrataciones ni gestionamos procesos de selección.",
+    "copyright": "© 2026 TechToJob",
+    "langLabel": "Idioma",
+    "langEs": "Español",
+    "langEn": "English"
+  },
+  "links": {
+    "discord": "https://discord.gg/h9FFgKdkRd",
+    "linkedin": "https://www.linkedin.com/company/techtojob/",
+    "x": "https://x.com/techtojob",
+    "instagram": "https://www.instagram.com/techtojob"
+  },
+  "a11y": {
+    "skip": "Saltar al contenido"
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "title": "TechToJob — Community of Spanish-speaking developers and tech companies",
+    "description": "The Spanish-language Discord for devs and tech companies: you post what you build, people read you in your channel, and they reach out when they need someone like you. For juniors, and for anyone who'd rather watch someone work before hiring them."
+  },
+  "brand": {
+    "logoAlt": "TechToJob"
+  },
+  "nav": {
+    "cta": "Join the Discord"
+  },
+  "hero": {
+    "eyebrow": "Community of Spanish-speaking developers and tech companies",
+    "titleA": "Here, you don't send your résumé.",
+    "titleB": "Here, they watch you",
+    "lead": "TechToJob is a Discord: you post what you build, your channel reads you, and when they need someone like you, they already know who you are — no waiting for a job posting to exist first. If you're a junior, you're in anyway: nobody asks for years you don't have yet.",
+    "cta": "Join the Discord",
+    "ctaNote": "It's a Discord. You join, introduce yourself, and pick your channels.",
+    "devsLabel": "If you're a dev",
+    "devs": "Tired of applying and hearing nothing back.",
+    "devsLink": "See how it works for you →",
+    "companiesLabel": "If you're a company",
+    "companies": "Tired of deciding from behind a PDF.",
+    "companiesLink": "See how it works for you →",
+    "titleBMark": "work.",
+    "loop": {
+      "label": "How it plays out",
+      "beats": [
+        "You post what you build.",
+        "People in your channel find out what you're getting done.",
+        "When they need someone, they already know"
+      ],
+      "beatsMark": "who you are.",
+      "note": "No forms, and no résumé stuck behind a bot deciding whether you deserve a reply."
+    }
+  },
+  "tournament": {
+    "stripLead": "Tournament #2 — submissions open until",
+    "stripCta": "Join the Discord"
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "From your first click to someone messaging you",
+    "lead": "Four steps. None of them ask for years of experience.",
+    "steps": [
+      {
+        "title": "You join",
+        "text": "You introduce yourself in #presentaciones and pick your channels by area. Five minutes."
+      },
+      {
+        "title": "You post what you build",
+        "text": "Your profile, your projects, your questions. You're not filling out a form — you're writing in a channel, and nobody checks first whether you're senior enough."
+      },
+      {
+        "title": "They get to know you working",
+        "text": "You comment, help out, and get feedback. Over time, people in your channel know how you work. Want to speed it up? Enter a tournament."
+      },
+      {
+        "title": "They message you",
+        "text": "Companies are in the same channels, reading the same things you are. They don't run a search — they've already read you.",
+        "link": "See who this has already happened to"
+      }
+    ]
+  },
+  "talent": {
+    "eyebrow": "Offer yourself as talent",
+    "title": "Your level doesn't decide what you can offer.",
+    "lead": "You say what you know how to do, where you're at, and when you can start. No automatic filter rules you out over the years on your résumé — here, a person reads you first.",
+    "cards": [
+      {
+        "title": "No minimum experience",
+        "text": "What counts is what you show, not how many years you've put in. And it doesn't have to be big to be worth showing."
+      },
+      {
+        "title": "You write your own profile",
+        "text": "No required fields, no template. What you show is what you decide to show."
+      },
+      {
+        "title": "Companies actually read it",
+        "text": "They're in the same channels and check profiles when they need someone. You finish something, you post it, and your profile never goes stale in a drawer."
+      },
+      {
+        "title": "Feedback instead of rejection",
+        "text": "You ask in the open, and someone further along answers."
+      }
+    ],
+    "cta": "Introduce myself on Discord",
+    "ctaNote": "You introduce yourself in #presentaciones and pick your channels. Joining and posting your profile costs nothing.",
+    "projects": {
+      "title": "What's already being posted",
+      "lead": "Projects people have shared in their channel, with their repo and the feedback they got.",
+      "stackLabel": "#stack",
+      "items": [
+        {
+          "title": "Apartment search with shareable filters",
+          "built": "Filters live in the URL, so a search can be sent as a message and still works.",
+          "stack": "React · TanStack Query",
+          "handle": "marta.dev",
+          "channel": "#frontend"
+        },
+        {
+          "title": "Automatic weekly review",
+          "built": "Sorts my notes by topic and tells me what to review on Sunday.",
+          "stack": "Python · Embeddings",
+          "handle": "kevinq",
+          "channel": "#data-ia"
+        },
+        {
+          "title": "Portfolio rebuilt from scratch",
+          "built": "I stopped hiding that I'm a junior and started explaining what I learned on each project.",
+          "stack": "Astro · Tailwind",
+          "handle": "sofi.builds",
+          "channel": "#primer-empleo"
+        }
+      ]
+    },
+    "answers": {
+      "title": "No fine print",
+      "items": [
+        {
+          "q": "Does it cost anything?",
+          "a": "No. Not to join, not to post your profile, not for a company to post what they're looking for."
+        },
+        {
+          "q": "I'm already senior — is this just for juniors?",
+          "a": "Channels are organized by area, not seniority. If you've got years behind you, this is where whoever's building a team finds you, and where your name gets around without going through a recruiter."
+        }
+      ]
+    }
+  },
+  "companies": {
+    "eyebrow": "Post as a company",
+    "title": "Get to know the person before reducing them to a résumé.",
+    "lead": "You post what you're looking for in the channels where people already are. And you see real projects, posted by the people who built them, before you talk to anyone.",
+    "cards": [
+      {
+        "title": "You see the work, not the format",
+        "text": "Repos, deploys and decisions explained by the people who made them. Not a nicely formatted template."
+      },
+      {
+        "title": "You talk before opening a process",
+        "text": "A message in a channel goes further than a posted job listing."
+      },
+      {
+        "title": "Context before the filtering",
+        "text": "You read how someone argues through a technical decision. That doesn't fit in a two-page PDF."
+      }
+    ],
+    "cta": "Post what I'm looking for on Discord",
+    "ctaNote": "You post it in #empresas, in front of people from that area. Posting it costs nothing.",
+    "contact": {
+      "postedLabel": "Posted",
+      "title": "Apartment search with shareable filters",
+      "handle": "marta.dev",
+      "channel": "#frontend",
+      "repliedLabel": "They messaged her",
+      "replied": "“We saw your apartment search tool. We'd rather see how someone works before opening a process. Want to talk?”",
+      "company": "A company from the #empresas channel",
+      "delay": "Six days after she posted it"
+    }
+  },
+  "tournaments": {
+    "eyebrow": "Tournaments",
+    "title": "You build something real. And it gets critiqued in front of everyone.",
+    "lead": "A challenge with a deadline, open submissions, and a jury that publishes its criteria before it starts.",
+    "cards": [
+      {
+        "title": "The challenge",
+        "text": "One brief, one deadline. The same for everyone."
+      },
+      {
+        "title": "The submissions",
+        "text": "They're published, not hidden. Repo, deploy and the decisions you made, for anyone to see."
+      },
+      {
+        "title": "The jury",
+        "text": "People from the industry. Criteria get published before submissions open, so you know how you'll be judged."
+      },
+      {
+        "title": "What you win",
+        "text": "The winning work actually gets used. This page is a Tournament #2 submission."
+      }
+    ],
+    "payoff": {
+      "title": "What if you don't win?",
+      "text": "You walk away with a finished project, feedback from people who know their craft, and your name stuck in the head of whoever read it. You can show that in an interview. A certificate, you can't."
+    },
+    "cta": "See the open tournament",
+    "ctaNote": "They're announced on the server before submissions open. Joining doesn't commit you to entering.",
+    "answers": [
+      {
+        "q": "Do I have to submit something?",
+        "a": "No. It's the fastest way to get noticed, but you can just stick to the channels for your area."
+      },
+      {
+        "q": "What if what I submit isn't good?",
+        "a": "You get open feedback, which is exactly what a job board never gives you. Nobody gets disqualified for their level."
+      }
+    ]
+  },
+  "networking": {
+    "eyebrow": "Networking",
+    "title": "Openings come through contact, not through searching",
+    "lead": "Good jobs aren't found by searching, you hear about them. There's no search bar here: there are channels by area with people talking inside them. When someone needs somebody, they ask right where you already are.",
+    "channelsLabel": "Channels by area",
+    "channels": [
+      "#frontend",
+      "#backend",
+      "#mobile",
+      "#data-ia",
+      "#devops-cloud",
+      "#qa-testing",
+      "#diseno-ux",
+      "#producto",
+      "#ciberseguridad",
+      "#primer-empleo",
+      "#empresas"
+    ],
+    "points": [
+      {
+        "title": "By area, not by seniority",
+        "text": "You ask in your area's channel, and within minutes someone who's been there answers."
+      },
+      {
+        "title": "Openings travel through the chain",
+        "text": "Someone knows the person hiring and shares it in the channel. It starts in public and moves to DMs once there's something concrete."
+      }
+    ],
+    "cta": "Join and pick my channels",
+    "ctaNote": "You choose by area when you join. You can change them whenever you want."
+  },
+  "news": {
+    "eyebrow": "News",
+    "title": "What's happening in the community",
+    "lead": "Tournaments opening, channels changing, and whatever else comes out of the server.",
+    "items": [
+      {
+        "category": "Tournaments",
+        "date": "Sep 10, 2026",
+        "title": "Tournament #2 submissions are open",
+        "summary": "The challenge is the community's own website. Submissions are published in the open, and the jury explains its criteria before scoring."
+      },
+      {
+        "category": "Community",
+        "date": "Sep 2, 2026",
+        "title": "A new channel for people starting out",
+        "summary": "We split #primer-empleo off from the rest. Beginner questions were getting lost in threads full of people with years behind them."
+      },
+      {
+        "category": "Companies",
+        "date": "Aug 26, 2026",
+        "title": "How to say what you're looking for without writing a job listing",
+        "summary": "What the team builds, what problem is on the table, and what stack. Three lines and done."
+      }
+    ],
+    "all": "See all posts"
+  },
+  "newsletter": {
+    "eyebrow": "Newsletter",
+    "titleA": "One email every two weeks.",
+    "titleMark": "That's it.",
+    "lead": "If you don't feel like checking in daily, this is the minimum to not miss anything.",
+    "items": [
+      "The open tournament and how to join.",
+      "Two or three projects worth a look.",
+      "What the companies inside are looking for."
+    ],
+    "label": "Your email",
+    "placeholder": "you@email.com",
+    "cta": "Send it to me",
+    "note": "Unsubscribe in one click. We don't share your email with anyone.",
+    "successTitle": "You're in.",
+    "successNote": "It'll reach you in the next issue. You can unsubscribe from any email.",
+    "reset": "Reset"
+  },
+  "closing": {
+    "eyebrow": "Last thing",
+    "title": "The next opening — hear about it from the inside.",
+    "lead": "Here, you get seen because you show up. Join, introduce yourself, share what you build, and keep an eye on what everyone else is posting.",
+    "cta": "Join the Discord",
+    "notFor": "This isn't for sending your résumé and waiting: if you're not going to post anything, this won't work for you."
+  },
+  "footer": {
+    "navLabel": "Site links",
+    "tagline": "Community of Spanish-speaking developers and tech companies.",
+    "groups": [
+      {
+        "title": "Talent",
+        "links": [
+          "Introduce myself on Discord",
+          "How it works",
+          "Channels by area"
+        ]
+      },
+      {
+        "title": "Companies",
+        "links": [
+          "Post what I'm looking for",
+          "See projects",
+          "News for companies"
+        ]
+      },
+      {
+        "title": "Community",
+        "links": [
+          "Join the Discord",
+          "Tournaments",
+          "News",
+          "Newsletter"
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          "Legal notice",
+          "Privacy",
+          "Cookies"
+        ]
+      }
+    ],
+    "socials": [
+      "Discord",
+      "X",
+      "LinkedIn",
+      "Instagram"
+    ],
+    "legalNotice": "TechToJob is not a job board or a staffing agency. We don't broker hiring or manage recruitment processes.",
+    "copyright": "© 2026 TechToJob",
+    "langLabel": "Language",
+    "langEs": "Español",
+    "langEn": "English"
+  },
+  "links": {
+    "discord": "https://discord.gg/h9FFgKdkRd",
+    "linkedin": "https://www.linkedin.com/company/techtojob/",
+    "x": "https://x.com/techtojob",
+    "instagram": "https://www.instagram.com/techtojob"
+  },
+  "a11y": {
+    "skip": "Skip to content"
+  }
+}
