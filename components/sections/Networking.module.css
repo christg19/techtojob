@@ -1,0 +1,59 @@
+.list {
+  margin: clamp(30px, 6.5vw, 44px) 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.chip,
+.chipTeal,
+.chipCharcoal {
+  border: 2px solid var(--charcoal);
+  font-size: clamp(13px, 3.5vw, 15px);
+  padding: 8px 13px;
+  list-style: none;
+}
+
+.chip {
+  font-weight: 600;
+}
+
+.chipTeal {
+  background: var(--teal);
+  color: var(--charcoal);
+  font-weight: 700;
+}
+
+.chipCharcoal {
+  background: var(--charcoal);
+  color: var(--white);
+  font-weight: 700;
+}
+
+.pointsGrid {
+  margin: clamp(32px, 7vw, 48px) 0 0;
+}
+
+.point {
+  background: var(--white);
+  border: 2px solid var(--charcoal);
+  box-shadow: 5px 5px 0 var(--charcoal);
+  padding: clamp(18px, 4vw, 24px);
+}
+
+.pointTitle {
+  margin: 0;
+  font-size: clamp(16px, 4.2vw, 19px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+}
+
+.pointText {
+  margin: 10px 0 0;
+  font-size: clamp(14px, 3.7vw, 15.5px);
+  line-height: 1.6;
+  color: var(--gray-on-white);
+}

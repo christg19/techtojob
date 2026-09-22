@@ -1,0 +1,181 @@
+.promiseGrid {
+  margin: clamp(30px, 6.5vw, 44px) 0 0;
+}
+
+.promiseCard {
+  background: var(--white);
+  border: 2px solid var(--charcoal);
+  box-shadow: 5px 5px 0 var(--charcoal);
+  padding: clamp(18px, 4vw, 24px);
+}
+
+.promiseTitle {
+  margin: 0;
+  font-size: clamp(16px, 4.2vw, 19px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+}
+
+.promiseText {
+  margin: 10px 0 0;
+  font-size: clamp(14px, 3.7vw, 15.5px);
+  line-height: 1.6;
+  color: var(--gray-on-white);
+}
+
+.projectsBlock {
+  margin: clamp(34px, 7vw, 52px) 0 0;
+  border-top: 2px solid var(--charcoal);
+  padding-top: clamp(22px, 4.5vw, 30px);
+}
+
+.projectsHead {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(12px, 3vw, 32px);
+  align-items: baseline;
+}
+
+.projectsTitle {
+  flex: 1 1 280px;
+  min-width: 0;
+  margin: 0;
+  font-size: clamp(20px, 5.2vw, 30px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+.projectsLead {
+  flex: 1 1 260px;
+  min-width: 0;
+  margin: 0;
+  max-width: 42ch;
+  font-size: clamp(14px, 3.7vw, 16px);
+  line-height: 1.6;
+  color: var(--gray-on-white);
+}
+
+.projectsGrid {
+  margin: clamp(22px, 4.5vw, 30px) 0 0;
+}
+
+.projectCard {
+  background: var(--charcoal);
+  border: 2px solid var(--charcoal);
+  box-shadow: 5px 5px 0 var(--teal);
+  padding: clamp(18px, 4vw, 26px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.12s ease;
+}
+
+.projectCard:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0 var(--teal);
+  text-decoration: none;
+}
+
+.projectTitle {
+  margin: 0;
+  font-size: clamp(17px, 4.4vw, 21px);
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+  color: var(--white);
+}
+
+.projectText {
+  margin: 0;
+  font-size: clamp(14px, 3.7vw, 15.5px);
+  line-height: 1.6;
+  color: var(--gray-on-dark);
+}
+
+.stackLine {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stackCursor {
+  width: 9px;
+  height: 15px;
+  flex-shrink: 0;
+  background: var(--teal);
+}
+
+.stackLabel {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gray-on-dark);
+}
+
+.stackValue {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.projectFooter {
+  margin-top: auto;
+  padding-top: clamp(13px, 3vw, 16px);
+  border-top: 2px solid var(--teal);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.projectHandle {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--white);
+}
+
+.projectChannel {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--teal);
+}
+
+.answersBlock {
+  margin: clamp(34px, 7vw, 52px) 0 0;
+  border-top: 2px solid var(--charcoal);
+  padding-top: clamp(22px, 4.5vw, 30px);
+}
+
+.answersTitle {
+  margin: 0;
+  font-size: clamp(20px, 5.2vw, 30px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+.answersGrid {
+  margin: clamp(20px, 4vw, 28px) 0 0;
+}
+
+.answerQ {
+  margin: 0;
+  font-size: clamp(15px, 4vw, 17px);
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+}
+
+.answerA {
+  margin: 8px 0 0;
+  font-size: clamp(14px, 3.7vw, 15.5px);
+  line-height: 1.6;
+  color: var(--gray-on-white);
+}

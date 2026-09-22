@@ -1,0 +1,183 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(32px, 6vw, 56px);
+  align-items: flex-start;
+}
+
+.copy {
+  flex: 1.2 1 320px;
+  min-width: 0;
+}
+
+.eyebrow {
+  display: block;
+  background: var(--teal);
+  color: var(--charcoal);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 6px 11px;
+  line-height: 1.35;
+}
+
+.title {
+  margin: clamp(20px, 5vw, 30px) 0 0;
+  font-size: clamp(34px, 7.2vw, 50px);
+  font-weight: 800;
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+.titleLine {
+  display: block;
+}
+
+.lead {
+  margin: clamp(22px, 5vw, 28px) 0 0;
+  max-width: 52ch;
+  font-size: clamp(16px, 4.1vw, 19px);
+  line-height: 1.6;
+}
+
+.ctaBlock {
+  margin: clamp(24px, 5.5vw, 34px) 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.cta {
+  background: var(--teal);
+  color: var(--charcoal);
+  border: 2px solid var(--teal);
+  font-size: clamp(15px, 4vw, 18px);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  padding: 15px 22px;
+  box-shadow: 5px 5px 0 var(--white);
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.12s ease;
+}
+
+.cta:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0 var(--white);
+  text-decoration: none;
+}
+
+.ctaNote {
+  font-size: 13.5px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--gray-on-dark);
+}
+
+.loopWrap {
+  flex: 1 1 290px;
+  min-width: 0;
+  max-width: 460px;
+  width: 100%;
+}
+
+.loopCard {
+  border: 2px solid var(--white);
+  box-shadow: 6px 6px 0 var(--teal);
+  padding: clamp(20px, 4.5vw, 30px);
+}
+
+.loopLabel {
+  display: inline-block;
+  background: var(--teal);
+  color: var(--charcoal);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  padding: 5px 9px;
+}
+
+.loopBeats {
+  margin: clamp(18px, 4vw, 24px) 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.beat {
+  margin: 0;
+  font-size: clamp(14px, 3.6vw, 16px);
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  color: var(--white);
+}
+
+.beatArrow {
+  display: block;
+  margin: 10px 0 10px 3px;
+}
+
+.loopNote {
+  margin: clamp(20px, 4.5vw, 26px) 0 0;
+  padding-top: clamp(16px, 3.5vw, 20px);
+  border-top: 2px solid var(--white);
+  font-size: 13.5px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--gray-on-dark);
+}
+
+.painGrid {
+  margin: clamp(36px, 8vw, 56px) 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(272px, 1fr));
+  gap: clamp(14px, 3vw, 20px);
+}
+
+.painCard {
+  display: block;
+  background: var(--charcoal);
+  border: 2px solid var(--white);
+  box-shadow: 5px 5px 0 var(--teal);
+  padding: clamp(18px, 4vw, 24px);
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.12s ease;
+}
+
+.painCard:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0 var(--teal);
+  text-decoration: none;
+}
+
+.painLabel {
+  display: inline-block;
+  background: var(--teal);
+  color: var(--charcoal);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 5px 9px;
+}
+
+.painText {
+  margin: 12px 0 0;
+  font-size: clamp(15px, 3.9vw, 17px);
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--white);
+}
+
+.painLink {
+  display: inline-block;
+  margin: 12px 0 0;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--teal);
+}

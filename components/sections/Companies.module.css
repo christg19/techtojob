@@ -1,0 +1,134 @@
+.cardsGrid {
+  margin: clamp(30px, 6.5vw, 44px) 0 0;
+}
+
+.card {
+  border: 2px solid var(--white);
+  box-shadow: 5px 5px 0 var(--teal);
+  padding: clamp(18px, 4vw, 26px);
+}
+
+.cardTitle {
+  margin: 0;
+  font-size: clamp(16px, 4.2vw, 19px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  color: var(--white);
+}
+
+.cardText {
+  margin: 10px 0 0;
+  font-size: clamp(14px, 3.7vw, 15.5px);
+  line-height: 1.6;
+  color: var(--gray-on-dark);
+}
+
+.contact {
+  margin: clamp(30px, 6.5vw, 44px) 0 0;
+  background: var(--white);
+  border: 2px solid var(--white);
+  box-shadow: 5px 5px 0 var(--teal);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.posted {
+  flex: 1 1 260px;
+  min-width: 0;
+  padding: clamp(20px, 4.5vw, 30px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.postedLabel {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gray-on-white);
+}
+
+.postedTitle {
+  margin: 0;
+  font-size: clamp(18px, 4.6vw, 22px);
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+  color: var(--charcoal);
+}
+
+.postedFooter {
+  margin-top: auto;
+  padding-top: clamp(13px, 3vw, 16px);
+  border-top: 2px solid var(--charcoal);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.postedHandle {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--charcoal);
+}
+
+.postedChannel {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--gray-on-white);
+}
+
+.replied {
+  flex: 1 1 320px;
+  min-width: 0;
+  background: var(--teal);
+  padding: clamp(20px, 4.5vw, 30px);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(14px, 3vw, 18px);
+}
+
+.repliedLabel {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--charcoal);
+}
+
+.repliedQuote {
+  margin: 0;
+  font-size: clamp(17px, 4.3vw, 22px);
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.015em;
+  text-wrap: pretty;
+  color: var(--charcoal);
+}
+
+.repliedFooter {
+  margin-top: auto;
+  padding-top: clamp(14px, 3vw, 18px);
+  border-top: 2px solid var(--charcoal);
+}
+
+.repliedCompany {
+  display: block;
+  font-size: 13.5px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--charcoal);
+}
+
+.repliedDelay {
+  display: block;
+  margin-top: 3px;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--charcoal);
+}

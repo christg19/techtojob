@@ -1,0 +1,39 @@
+.strip {
+  background: var(--alert);
+  color: var(--white);
+  border-bottom: 2px solid var(--charcoal);
+}
+
+.bar {
+  padding-top: clamp(14px, 3.5vw, 18px);
+  padding-bottom: clamp(14px, 3.5vw, 18px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: clamp(12px, 3vw, 20px);
+}
+
+.lead {
+  margin: 0;
+  flex: 1 1 300px;
+  min-width: 0;
+  font-size: clamp(14px, 3.8vw, 17px);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.cta {
+  background: var(--white);
+  color: var(--alert);
+  border: 2px solid var(--white);
+  font-size: clamp(13px, 3.5vw, 14.5px);
+  font-weight: 700;
+  padding: 10px 16px;
+  white-space: nowrap;
+}
+
+.cta:hover {
+  background: var(--alert);
+  color: var(--white);
+  text-decoration: none;
+}

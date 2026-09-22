@@ -1,0 +1,73 @@
+.card {
+  max-width: 720px;
+  background: var(--white);
+  border: 2px solid var(--charcoal);
+  box-shadow: 5px 5px 0 var(--charcoal);
+  padding: clamp(22px, 5vw, 44px);
+}
+
+.eyebrow {
+  display: block;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gray-on-white);
+}
+
+.title {
+  margin: 14px 0 0;
+  font-size: clamp(25px, 6.6vw, 42px);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.titleLine {
+  display: block;
+}
+
+.lead {
+  margin: 16px 0 0;
+  max-width: 48ch;
+  font-size: clamp(15px, 3.9vw, 17px);
+  line-height: 1.6;
+  color: var(--gray-on-white);
+}
+
+.bullets {
+  margin: clamp(20px, 4.5vw, 28px) 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bulletItem {
+  display: flex;
+  gap: 11px;
+  align-items: flex-start;
+}
+
+.bulletDot {
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+  margin-top: 7px;
+  background: var(--teal);
+  border: 2px solid var(--charcoal);
+}
+
+.bulletText {
+  font-size: clamp(14px, 3.8vw, 16px);
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.note {
+  margin: 14px 0 0;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--gray-on-white);
+}

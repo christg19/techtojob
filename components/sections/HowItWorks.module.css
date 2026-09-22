@@ -1,0 +1,73 @@
+.steps {
+  margin: clamp(36px, 8vw, 56px) 0 0;
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+}
+
+.step {
+  display: flex;
+  gap: clamp(14px, 3.5vw, 22px);
+  align-items: flex-start;
+}
+
+.number,
+.numberFinal {
+  width: clamp(44px, 11vw, 56px);
+  height: clamp(44px, 11vw, 56px);
+  flex-shrink: 0;
+  border: 2px solid var(--charcoal);
+  font-size: clamp(17px, 4.4vw, 22px);
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  background: var(--white);
+  color: var(--charcoal);
+}
+
+.numberFinal {
+  background: var(--charcoal);
+  color: var(--white);
+}
+
+.stepBody {
+  padding-top: clamp(2px, 1vw, 6px);
+}
+
+.stepTitle {
+  margin: 0;
+  font-size: clamp(18px, 4.7vw, 24px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.stepText {
+  margin: 8px 0 0;
+  font-size: clamp(15px, 3.9vw, 17px);
+  line-height: 1.6;
+  max-width: 44ch;
+}
+
+.stepLink {
+  display: inline-block;
+  margin: 12px 0 0;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 2px solid var(--charcoal);
+  padding-bottom: 2px;
+}
+
+.stepLink:hover {
+  border-bottom-color: var(--white);
+  text-decoration: none;
+}
+
+.stepArrow {
+  display: block;
+  margin: 6px 0 6px clamp(9px, 2.6vw, 15px);
+}
