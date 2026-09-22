@@ -11,7 +11,13 @@ export default function Header({ cta, logoAlt }: HeaderProps) {
     <header className={styles.header}>
       <div className={`container ${styles.bar}`}>
         <a href="#top" aria-label={logoAlt} className={styles.logoLink}>
-          <img src="/brand/logo-h-teal.svg" alt={logoAlt} className={styles.logo} />
+          <img
+            src="/brand/logo-h-teal.svg"
+            alt={logoAlt}
+            width="1108"
+            height="164"
+            className={styles.logo}
+          />
         </a>
         <a
           href={links.discord}

@@ -25,7 +25,13 @@ export default function Footer({ t, logoAlt, locale }: FooterProps) {
       <div className="container">
         <nav aria-label={t.navLabel} className={styles.nav}>
           <div className={styles.brand}>
-            <img src="/brand/logo-stacked-teal.svg" alt={logoAlt} className={styles.logo} />
+            <img
+              src="/brand/logo-stacked-teal.svg"
+              alt={logoAlt}
+              width="614"
+              height="340"
+              className={styles.logo}
+            />
             <p className={styles.tagline}>{t.tagline}</p>
           </div>
 
