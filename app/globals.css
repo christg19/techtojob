@@ -1,0 +1,134 @@
+:root {
+  --charcoal: #2f3436;
+  --teal: #84c0bf;
+  --white: #ffffff;
+  --gray-on-white: #5a6163;
+  --gray-on-dark: #dfe3e3;
+  --alert: #c2492c;
+  --row-hover: rgba(255, 255, 255, 0.06);
+  --footer-rule: rgba(255, 255, 255, 0.18);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--white);
+  color: var(--charcoal);
+  font-family: var(--font-sora), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-wrap: pretty;
+}
+
+a {
+  color: var(--charcoal);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--teal);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+input {
+  font-family: inherit;
+}
+
+::selection {
+  background: var(--teal);
+  color: var(--charcoal);
+}
+
+:focus-visible {
+  outline: 3px solid var(--charcoal);
+  outline-offset: 3px;
+}
+
+header :focus-visible,
+#top :focus-visible,
+#companies :focus-visible,
+#news :focus-visible,
+#join :focus-visible,
+footer :focus-visible {
+  outline-color: var(--white);
+}
+
+.skipLink {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--white);
+  color: var(--charcoal);
+  border: 2px solid var(--charcoal);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px 18px;
+}
+
+.skipLink:focus {
+  left: 12px;
+  top: 12px;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding-left: clamp(20px, 5vw, 48px);
+  padding-right: clamp(20px, 5vw, 48px);
+}
+
+.gridPromise,
+.gridThree,
+.gridTwo,
+.gridQA {
+  display: grid;
+  gap: clamp(16px, 3.5vw, 24px);
+}
+
+.gridPromise {
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+.gridThree {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.gridTwo {
+  grid-template-columns: repeat(auto-fit, minmax(268px, 1fr));
+}
+
+.gridQA {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+@media (min-width: 560px) and (max-width: 856px) {
+  .gridThree {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
